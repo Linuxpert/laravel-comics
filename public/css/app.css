@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.blueBar {
+  background-color: #0084ff;
+  height: 30px;
+}
+
+.link {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.link ul {
+  display: flex;
+  align-items: center;
+}
+
+.link ul li {
+  list-style: none;
+}
+
+.link ul li a {
+  text-decoration: none;
+  margin: 0 20px;
+  color: #494848;
+}
+
+.link .logo {
+  display: flex;
+  align-items: center;
+}
+
+.link .logo img {
+  width: 80px;
+}
+
+.link .search {
+  display: flex;
+  align-items: center;
+}
+
+.link .search .searchInp {
+  height: 20px;
+  border: none;
+  border-bottom: solid 2px #0084ff;
+}
+
+.jumbo {
+  height: 500px;
+  background-image: url(https://cdn.bestmovie.it/wp-content/uploads/2018/07/Teen-Titans-Go-il-film-61.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
