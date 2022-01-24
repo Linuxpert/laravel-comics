@@ -52,10 +52,9 @@
 
 .jumbo {
   height: 500px;
-  background-image: url(https://cdn.bestmovie.it/wp-content/uploads/2018/07/Teen-Titans-Go-il-film-61.jpg);
+  background-image: url("/storage/assets/jumbotron.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
 }
 
 .sfondo {
@@ -131,5 +130,97 @@
   margin: 50px 0;
   width: 80px;
   background-color: white;
+}
+
+.upfooter {
+  background-image: url("/storage/assets/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.upfooter .containerFooter {
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.upfooter .containerFooter .boxLeft {
+  display: flex;
+  flex-direction: column;
+}
+
+.upfooter .containerFooter .boxLeft .infoCopy {
+  margin: 0 20px;
+  width: 91%;
+}
+
+.upfooter .containerFooter .boxLeft .infoCopy span {
+  color: #9c9898;
+}
+
+.upfooter .containerFooter .boxLeft .infoCopy span a {
+  text-decoration: none;
+  color: blue;
+}
+
+.upfooter .containerFooter .boxLeft .info {
+  display: flex;
+  margin: 50px 0 20px 0;
+}
+
+.upfooter .containerFooter .boxLeft .info .infoList h3 {
+  color: white;
+  margin-left: 20px;
+}
+
+.upfooter .containerFooter .boxLeft .info .infoList li {
+  list-style: none;
+}
+
+.upfooter .containerFooter .boxLeft .info .infoList li a {
+  text-decoration: none;
+  margin: 0 20px;
+  color: #9c9898;
+}
+
+.upfooter .containerFooter .logoFooter img {
+  height: 400px;
+  width: 600px;
+  -o-object-fit: none;
+     object-fit: none;
+}
+
+.downFooter {
+  background-color: #504f4f;
+  height: 100px;
+  display: flex;
+}
+
+.downFooter .containerDFooter {
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.downFooter .containerDFooter .signBtn button {
+  border: #0175e2 3px solid;
+  color: white;
+  background-color: #504f4f;
+  padding: 18px;
+}
+
+.downFooter .containerDFooter .social {
+  display: flex;
+  width: 25%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.downFooter .containerDFooter .social h3 {
+  color: #0175e2;
 }
 

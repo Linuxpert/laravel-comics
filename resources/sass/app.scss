@@ -50,10 +50,9 @@
 
 .jumbo{
     height: 500px;
-    background-image: url(https://cdn.bestmovie.it/wp-content/uploads/2018/07/Teen-Titans-Go-il-film-61.jpg);
+    background-image: url("/storage/assets/jumbotron.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
 }
 
 .sfondo{
@@ -119,5 +118,100 @@
             background-color: white;
         }
     }
+}
+
+.upfooter{
+
+    background-image: url("/storage/assets/footer-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    .containerFooter{
+        margin: 0 auto;
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        .boxLeft{
+            display: flex;
+            flex-direction: column;
+            .infoCopy{
+                margin: 0 20px;
+                width: 91%;
+                
+                span{
+                    color: rgb(156, 152, 152);
+                    a{
+                        text-decoration: none;
+                        color: blue;
+                    }
+                }
+            }
+
+            .info{
+                display: flex;
+                margin: 50px 0 20px 0;
+                .infoList{
+                    h3{
+                        color: white;
+                        margin-left: 20px;
+                    }
+                    li{
+                        list-style: none;
+    
+                        a{
+                            text-decoration: none;
+                            margin: 0 20px;
+                            color: rgb(156, 152, 152);
+                        }
+                    }
+                }
+                
+            }
+        }
+        
+
+        .logoFooter{
+            img{
+                height: 400px;
+                width: 600px;
+                object-fit: none
+            }
+        }
+        
+    }
+
+    
+}
+
+.downFooter{
+    background-color: rgb(80, 79, 79);
+    height: 100px; 
+    display: flex;
+    .containerDFooter{
+        margin: 0 auto;
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .signBtn{
+            button{
+                border: rgb(1, 117, 226) 3px solid;
+                color: white;
+                background-color: rgb(80, 79, 79);
+                padding: 18px;
+            }
+        }
+        .social{
+            display: flex;
+            width: 25%;
+            justify-content: space-between;
+            align-items: center;
+
+            h3{
+                color: rgb(1, 117, 226);
+            }
+        }
+    }
+    
 }
 
