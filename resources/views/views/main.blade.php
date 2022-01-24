@@ -6,7 +6,8 @@
                 <div class="fumetto">
                     <img src="https://sociologicamente.it/wp-content/uploads/2021/04/Superman.jpg" alt="">
 
-                    <p>ACTION COMICS</p>
+                    <a href="{{ route('comic')}}"><p>ACTION COMICS</p></a>
+                    
 
                 </div>
 

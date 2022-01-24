@@ -215,3 +215,60 @@
     
 }
 
+.sfondo{
+    background-color: white;
+    .containerComic{
+        margin: 0 auto;
+        width: 70%;
+        display: flex;
+        .infoComic{
+            margin: 50px 0;
+            width: 70%;
+            h1{
+                margin-bottom: 30px;
+            }
+            .greenBox{
+                display: flex;
+                margin-bottom: 30px;
+                .boxPrice{
+                    background-color: rgb(18, 179, 18);
+                    display: flex;
+                    padding: 18px;
+                    width: 45%;
+                    justify-content: space-between;
+                    border: green solid 1px;
+                    p{
+                        color: green;
+                        span{
+                            color: white;
+                        }
+                    }
+                }
+
+                .available{
+                    background-color: rgb(18, 179, 18);
+                    display: flex;
+                    padding: 18px;
+                    border: green solid 1px;
+                    p{
+                        color: white;
+                    }
+                }
+            }
+            
+            article{
+                width: 70%;
+            }
+        }
+        .powerVisa{
+            width: 330px;
+            height: 300px;
+            img{
+                object-fit: contain;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+
