@@ -224,31 +224,31 @@
   color: #0175e2;
 }
 
-.sfondo {
+.sfondocomic {
   background-color: white;
 }
 
-.sfondo .containerComic {
+.sfondocomic .containerComic {
   margin: 0 auto;
   width: 70%;
   display: flex;
 }
 
-.sfondo .containerComic .infoComic {
+.sfondocomic .containerComic .infoComic {
   margin: 50px 0;
   width: 70%;
 }
 
-.sfondo .containerComic .infoComic h1 {
+.sfondocomic .containerComic .infoComic h1 {
   margin-bottom: 30px;
 }
 
-.sfondo .containerComic .infoComic .greenBox {
+.sfondocomic .containerComic .infoComic .greenBox {
   display: flex;
   margin-bottom: 30px;
 }
 
-.sfondo .containerComic .infoComic .greenBox .boxPrice {
+.sfondocomic .containerComic .infoComic .greenBox .boxPrice {
   background-color: #12b312;
   display: flex;
   padding: 18px;
@@ -257,35 +257,35 @@
   border: green solid 1px;
 }
 
-.sfondo .containerComic .infoComic .greenBox .boxPrice p {
+.sfondocomic .containerComic .infoComic .greenBox .boxPrice p {
   color: green;
 }
 
-.sfondo .containerComic .infoComic .greenBox .boxPrice p span {
+.sfondocomic .containerComic .infoComic .greenBox .boxPrice p span {
   color: white;
 }
 
-.sfondo .containerComic .infoComic .greenBox .available {
+.sfondocomic .containerComic .infoComic .greenBox .available {
   background-color: #12b312;
   display: flex;
   padding: 18px;
   border: green solid 1px;
 }
 
-.sfondo .containerComic .infoComic .greenBox .available p {
+.sfondocomic .containerComic .infoComic .greenBox .available p {
   color: white;
 }
 
-.sfondo .containerComic .infoComic article {
+.sfondocomic .containerComic .infoComic article {
   width: 70%;
 }
 
-.sfondo .containerComic .powerVisa {
+.sfondocomic .containerComic .powerVisa {
   width: 330px;
   height: 300px;
 }
 
-.sfondo .containerComic .powerVisa img {
+.sfondocomic .containerComic .powerVisa img {
   -o-object-fit: contain;
      object-fit: contain;
   width: 100%;

@@ -2,7 +2,7 @@
 @section('content')
     
 
-    <div class="sfondo">
+    <div class="sfondocomic">
         <div class="containerComic">
             <div class="infoComic">
                 <h1>
